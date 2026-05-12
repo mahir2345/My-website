@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #c084fc;
+  --color-secondary: #9ca3af;
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-950 text-slate-200;
+  }
+}
